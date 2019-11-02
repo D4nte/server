@@ -30,7 +30,7 @@ jobs:
             - node_modules
       - run: mkdir -p plugins
       - run: mkdir -p public/uploads
-      - run: sleep 5
+      - run: sleep 6
       - run: node tools/create-db-schema.js
       - run: node tools/populate-test-data.js
       - run:
